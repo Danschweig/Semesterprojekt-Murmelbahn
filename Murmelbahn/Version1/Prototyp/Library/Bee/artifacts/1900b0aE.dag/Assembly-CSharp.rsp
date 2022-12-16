@@ -355,9 +355,13 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.VSCode.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
-"Assets/Scenes/CameraSwitcher.cs"
-"Assets/Scenes/CamSwitch.cs"
-"Assets/Scenes/Firstkugel.cs"
+"Assets/scripts/CameraSwitcher.cs"
+"Assets/scripts/CamSwitch.cs"
+"Assets/scripts/Firstkugel.cs"
+"Assets/scripts/levelbutton.cs"
+"Assets/scripts/Lvl1start.cs"
+"Assets/scripts/lvl2start.cs"
+"Assets/scripts/Ziel.cs"
 -langversion:9.0
 
 /deterministic
