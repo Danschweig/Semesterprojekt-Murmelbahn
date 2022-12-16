@@ -27,6 +27,7 @@ public static class CameraSwitcher
             }
         }
     }
+    
     public static void Register(CinemachineVirtualCamera camera)
     {
         cameras.Add(camera);

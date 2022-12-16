@@ -2,11 +2,12 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class zielerkennung : MonoBehaviour
+public class Ziel : MonoBehaviour
 {
 
     private AudioSource finishSound;
-    // Start is called before the first frame update
+    private bool levelCompleted = false;
+
     private void Start()
     {
         finishSound = GetComponent<AudioSource>();
@@ -15,8 +16,9 @@ public class zielerkennung : MonoBehaviour
 
     private void OnTriggerEnter(Collider collision)
     {
-        if(collision.gameObject.name == "firstkugel")
+        if(!levelCompleted)
         {
+            levelCompleted = true;
             finishSound.Play();
         }
     }

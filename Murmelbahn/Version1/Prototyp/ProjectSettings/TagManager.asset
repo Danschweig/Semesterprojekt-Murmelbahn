@@ -16,6 +16,8 @@ TagManager:
   - green2
   - green3
   - green4
+  - firstkugel
+  - ersterAbschnitt
   layers:
   - Default
   - TransparentFX

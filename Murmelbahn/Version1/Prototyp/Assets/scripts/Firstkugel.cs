@@ -89,8 +89,6 @@ public class Firstkugel : MonoBehaviour
         else
             transform.position = kugelpos[2];
 
-
-
     
     }
 }

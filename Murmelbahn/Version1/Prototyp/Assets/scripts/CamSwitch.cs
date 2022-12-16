@@ -11,6 +11,8 @@ public class CamSwitch : MonoBehaviour
     public float FirstChange;
     public float SecondChange;
    
+
+    /*
     private void OnEnable() 
     {
         CameraSwitcher.Register(FirstCam);
@@ -24,7 +26,7 @@ public class CamSwitch : MonoBehaviour
         CameraSwitcher.Unregister(SecondCam);
         CameraSwitcher.Unregister(ThirdCam);
     }
-
+    */
    
 
 
@@ -49,4 +51,5 @@ public class CamSwitch : MonoBehaviour
         }
         
     }
+   
 }

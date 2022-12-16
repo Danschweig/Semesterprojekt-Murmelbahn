@@ -185,7 +185,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6240646}
-  m_LocalRotation: {x: -0.5096717, y: 0.19282931, z: 0.11839773, w: 0.8300805}
+  m_LocalRotation: {x: -0.5096717, y: 0.19282931, z: 0.11839774, w: 0.83008045}
   m_LocalPosition: {x: 5.94, y: 0.85, z: 0.53}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -205,9 +205,9 @@ GameObject:
   - component: {fileID: 320876332}
   - component: {fileID: 320876331}
   - component: {fileID: 320876330}
-  - component: {fileID: 320876333}
   - component: {fileID: 320876329}
   - component: {fileID: 320876334}
+  - component: {fileID: 320876335}
   m_Layer: 0
   m_Name: Ziel
   m_TagString: Untagged
@@ -286,26 +286,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 320876328}
   m_LocalRotation: {x: 0, y: 0.07837211, z: 0, w: 0.99692416}
-  m_LocalPosition: {x: -10.656, y: -4.029, z: 13.976}
+  m_LocalPosition: {x: -10.656, y: -4.51, z: 13.976}
   m_LocalScale: {x: 2.69, y: 1, z: 0.5}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 8.99, z: 0}
---- !u!114 &320876333
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 320876328}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9dcc01d34be5e7f419423fd5ed34c442, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  finishSound: {fileID: 0}
 --- !u!82 &320876334
 AudioSource:
   m_ObjectHideFlags: 0
@@ -402,6 +389,18 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &320876335
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 320876328}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9dcc01d34be5e7f419423fd5ed34c442, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &344486053
 GameObject:
   m_ObjectHideFlags: 0
@@ -1916,7 +1915,7 @@ GameObject:
   - component: {fileID: 1230827799}
   m_Layer: 0
   m_Name: firstkugel
-  m_TagString: Untagged
+  m_TagString: firstkugel
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
