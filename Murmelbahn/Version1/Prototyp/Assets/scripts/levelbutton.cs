@@ -3,11 +3,20 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class levelbutton : MonoBehaviour
+public class Levelbutton : MonoBehaviour
 {
+    public void DisableButton()
+    {
+        
+        gameObject.SetActive(false);
+    }
+    public void EnableButton()
+    {
+        gameObject.SetActive(true);
+    }
     public void StartLevelScreen()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        SceneManager.LoadScene(1);
     }
 
 }

@@ -6,11 +6,14 @@ public class Ziel : MonoBehaviour
 {
 
     private AudioSource finishSound;
+    //public Levelbutton weiterbutton;
     private bool levelCompleted = false;
 
     private void Start()
     {
         finishSound = GetComponent<AudioSource>();
+      //  weiterbutton = GetComponent<Levelbutton>();
+      //  weiterbutton.DisableButton();
     }
 
 
@@ -20,6 +23,7 @@ public class Ziel : MonoBehaviour
         {
             levelCompleted = true;
             finishSound.Play();
+         //   weiterbutton.EnableButton();
         }
     }
 

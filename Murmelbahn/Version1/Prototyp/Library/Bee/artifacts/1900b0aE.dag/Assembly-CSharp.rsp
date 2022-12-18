@@ -356,12 +356,11 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
 "Assets/scripts/CameraSwitcher.cs"
-"Assets/scripts/CamSwitch.cs"
+"Assets/scripts/Camswitch.cs"
 "Assets/scripts/Firstkugel.cs"
-"Assets/scripts/levelbutton.cs"
+"Assets/scripts/Levelbutton.cs"
 "Assets/scripts/Lvl1start.cs"
 "Assets/scripts/lvl2start.cs"
-"Assets/scripts/sss.cs"
 "Assets/scripts/Ziel.cs"
 -langversion:9.0
 

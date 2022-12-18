@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Firstkugel : MonoBehaviour
 {
+
     Vector3 Firstofblue()
     {
         float[] kugelpos = new float[4];
@@ -73,7 +74,8 @@ public class Firstkugel : MonoBehaviour
         else
             return GameObject.FindGameObjectWithTag("green4").transform.position;
     }
-    
+ 
+
     // Update is called once per frame
     void Update()
     {
