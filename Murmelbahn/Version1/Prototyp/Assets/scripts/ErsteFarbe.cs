@@ -16,6 +16,6 @@ public class ErsteFarbe : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        ersteKugelFarbe.text = farbe.getfirstFarbe();
+        ersteKugelFarbe.text = farbe.GetComponent<Firstkugel>().getfirstFarbe();
     }
 }

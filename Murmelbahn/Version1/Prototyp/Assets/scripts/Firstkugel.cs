@@ -99,11 +99,11 @@ public class Firstkugel : MonoBehaviour
             transform.position = kugelpos[2];
             erstekugelfarbe = "grün";
         }
-    
     }
 
-    public string getfirstFarbe()
+    public string getfirstFarbe()//string farbe)
     {
+        // farbe = erstekugelfarbe;
         return erstekugelfarbe;
     }
 }
