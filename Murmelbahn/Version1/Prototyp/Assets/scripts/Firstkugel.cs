@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Firstkugel : MonoBehaviour
 {
-
+    public string erstekugelfarbe;
     Vector3 Firstofblue()
     {
         float[] kugelpos = new float[4];
@@ -85,12 +85,25 @@ public class Firstkugel : MonoBehaviour
         kugelpos[2] = Firstofgreen();
 
         if (kugelpos[0].y < kugelpos[1].y && kugelpos[0].y < kugelpos[2].y)
+        {
             transform.position = kugelpos[0];
+            erstekugelfarbe = "blau";
+        }
         else if (kugelpos[1].y < kugelpos[2].y)
+        {
             transform.position = kugelpos[1];
+            erstekugelfarbe = "rot";
+        }
         else
+        {
             transform.position = kugelpos[2];
-
+            erstekugelfarbe = "grün";
+        }
     
+    }
+
+    public string getfirstFarbe()
+    {
+        return erstekugelfarbe;
     }
 }

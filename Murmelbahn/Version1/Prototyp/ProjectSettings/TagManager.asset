@@ -18,6 +18,8 @@ TagManager:
   - green4
   - firstkugel
   - ersterAbschnitt
+  - CoinCounter
+  - erstekugeltext
   layers:
   - Default
   - TransparentFX
