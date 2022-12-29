@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class CoinManager : MonoBehaviour
 {
@@ -21,7 +22,10 @@ public class CoinManager : MonoBehaviour
 
     public void Addmoney()
     {
-        geld++;
+        if (SceneManager.GetActiveScene().buildIndex == 2)
+            geld += 5;
+        else if (SceneManager.GetActiveScene().buildIndex == 3)
+            geld += 10;
         PlayerPrefs.SetInt("Money", geld);
     }
 }
