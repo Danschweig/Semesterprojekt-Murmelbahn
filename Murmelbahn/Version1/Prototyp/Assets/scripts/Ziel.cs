@@ -8,7 +8,7 @@ public class Ziel : MonoBehaviour
 
     private AudioSource finishSound;
     private bool levelCompleted = false;
-    private CoinManager m;
+    private CoinManager cm;
     public GameObject Firstkugelscript;
     public Text Winnertext;
     public Levelbutton weiterbutton;
@@ -17,7 +17,7 @@ public class Ziel : MonoBehaviour
     {
         finishSound = GetComponent<AudioSource>();
         CoinManager coinManager = GameObject.FindGameObjectWithTag("CoinCounter").GetComponent<CoinManager>();
-        m = coinManager;
+        cm = coinManager;
         Winnertext.enabled = false;
         weiterbutton.DisableButton();
     }
@@ -36,7 +36,7 @@ public class Ziel : MonoBehaviour
             Winnertext.enabled = true;
             weiterbutton.EnableButton();
            // if()
-            m.Addmoney();
+            cm.Addmoney();
          //   weiterbutton.EnableButton();
         }
     }
