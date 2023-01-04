@@ -361,6 +361,7 @@
 "Assets/scripts/CoinManager.cs"
 "Assets/scripts/ErsteFarbe.cs"
 "Assets/scripts/Firstkugel.cs"
+"Assets/scripts/Kugeln.cs"
 "Assets/scripts/Levelbutton.cs"
 "Assets/scripts/Lvl1start.cs"
 "Assets/scripts/lvl2start.cs"
