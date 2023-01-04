@@ -20,6 +20,7 @@ TagManager:
   - ersterAbschnitt
   - CoinCounter
   - erstekugeltext
+  - murmeln
   layers:
   - Default
   - TransparentFX

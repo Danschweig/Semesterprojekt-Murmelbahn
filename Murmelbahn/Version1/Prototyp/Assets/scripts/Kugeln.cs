@@ -10,7 +10,6 @@ public class Kugeln : MonoBehaviour
     void Start()
     {
         KinematicTrue();
-
     }
 
     // Update is called once per frame
@@ -18,10 +17,9 @@ public class Kugeln : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.J))
             KinematicFalse();
-
     }
 
-    void KinematicTrue()
+    public void KinematicTrue()
     {
         GameObject.FindGameObjectWithTag("blue1").GetComponent<Rigidbody>().isKinematic = true;
         GameObject.FindGameObjectWithTag("blue2").GetComponent<Rigidbody>().isKinematic = true;
@@ -36,7 +34,7 @@ public class Kugeln : MonoBehaviour
         GameObject.FindGameObjectWithTag("green3").GetComponent<Rigidbody>().isKinematic = true;
         GameObject.FindGameObjectWithTag("green4").GetComponent<Rigidbody>().isKinematic = true;
     }
-    void KinematicFalse()
+    public void KinematicFalse()
     {
         GameObject.FindGameObjectWithTag("blue1").GetComponent<Rigidbody>().isKinematic = false;
         GameObject.FindGameObjectWithTag("blue2").GetComponent<Rigidbody>().isKinematic = false;

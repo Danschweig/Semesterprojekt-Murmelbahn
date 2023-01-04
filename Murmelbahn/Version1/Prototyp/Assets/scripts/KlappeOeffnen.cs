@@ -10,7 +10,6 @@ public class KlappeOeffnen : MonoBehaviour
     void Start()
     {
         fixedJ = gameObject.GetComponent<FixedJoint>();
-
     }
 
     // Update is called once per frame
@@ -18,7 +17,6 @@ public class KlappeOeffnen : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Space))
             Open();
-        
     }
 
     void Open()

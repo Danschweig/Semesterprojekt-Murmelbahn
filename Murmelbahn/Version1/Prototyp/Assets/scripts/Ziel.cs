@@ -12,6 +12,7 @@ public class Ziel : MonoBehaviour
     public GameObject Firstkugelscript;
     public Text Winnertext;
     public Levelbutton weiterbutton;
+    public GameObject GewetteteFarbeScript;
 
     private void Start()
     {
@@ -31,12 +32,15 @@ public class Ziel : MonoBehaviour
         if (!levelCompleted)
         {
             levelCompleted = true;
-            finishSound.Play();
             Winnertext.text = "Winner is: " + Firstkugelscript.GetComponent<Firstkugel>().getfirstFarbe();
             Winnertext.enabled = true;
             weiterbutton.EnableButton();
-           // if()
-            cm.Addmoney();
+
+            if(GewetteteFarbeScript.GetComponent<KugelWetteUI>().GewetteteFarbe() == Firstkugelscript.GetComponent<Firstkugel>().getfirstFarbe())
+            {
+                finishSound.Play();
+                cm.Addmoney();
+            }
          //   weiterbutton.EnableButton();
         }
     }
