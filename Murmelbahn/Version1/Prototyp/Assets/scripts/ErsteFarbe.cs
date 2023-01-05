@@ -6,6 +6,7 @@ using UnityEngine.UI;
 public class ErsteFarbe : MonoBehaviour
 {
     public Text ersteKugelFarbe;
+    public GameObject background;
     private Firstkugel farbe;
     // Start is called before the first frame update
     void Start()
@@ -17,5 +18,11 @@ public class ErsteFarbe : MonoBehaviour
     void Update()
     {
         ersteKugelFarbe.text = farbe.GetComponent<Firstkugel>().getfirstFarbe();
+        if (ersteKugelFarbe.text == " rot")
+            background.GetComponent<FarbeErstKugHintergrund>().ChangeToRed();
+        else if (ersteKugelFarbe.text == "blau")
+            background.GetComponent<FarbeErstKugHintergrund>().ChangeToBlau();
+        else if (ersteKugelFarbe.text == "grün")
+            background.GetComponent<FarbeErstKugHintergrund>().ChangeToGreen();
     }
 }

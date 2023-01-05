@@ -359,6 +359,7 @@
 "Assets/scripts/Camswitch.cs"
 "Assets/scripts/CoinManager.cs"
 "Assets/scripts/ErsteFarbe.cs"
+"Assets/scripts/FarbeErstKugHintergrund.cs"
 "Assets/scripts/Firstkugel.cs"
 "Assets/scripts/KlappeOeffnen.cs"
 "Assets/scripts/Kugeln.cs"

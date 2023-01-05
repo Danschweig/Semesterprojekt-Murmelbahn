@@ -92,7 +92,7 @@ public class Firstkugel : MonoBehaviour
         else if (kugelpos[1].y < kugelpos[2].y)
         {
             transform.position = kugelpos[1];
-            erstekugelfarbe = "rot";
+            erstekugelfarbe = " rot";
         }
         else
         {
