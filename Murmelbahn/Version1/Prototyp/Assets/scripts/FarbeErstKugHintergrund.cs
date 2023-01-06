@@ -8,7 +8,7 @@ public class FarbeErstKugHintergrund : MonoBehaviour
 {
     Color32 farbeRot;
     Color32 farbeGruen;
-    Color farbeBlau;
+    Color32 farbeBlau;
     // Start is called before the first frame update
     void Start()
     {
@@ -20,7 +20,7 @@ public class FarbeErstKugHintergrund : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        gameObject.GetComponent<RawImage>().color = farbeGruen;
+        //gameObject.GetComponent<RawImage>().color = farbeGruen;
     }
     public void ChangeToRed()
     {
@@ -34,6 +34,4 @@ public class FarbeErstKugHintergrund : MonoBehaviour
     {
         gameObject.GetComponent<RawImage>().color = farbeBlau;
     }
-
-
 }

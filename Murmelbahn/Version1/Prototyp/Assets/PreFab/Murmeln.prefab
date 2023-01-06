@@ -1422,9 +1422,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2519772791616739454}
+  - component: {fileID: 5705214335270323457}
   m_Layer: 0
   m_Name: Murmeln
-  m_TagString: Untagged
+  m_TagString: murmeln
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1457,3 +1458,15 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 30.06, z: 0}
+--- !u!114 &5705214335270323457
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2519772791616739455}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9fcda409a680e0d4b8683dd4808b923b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
