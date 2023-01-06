@@ -6,7 +6,8 @@ using UnityEngine.UI;
 public class Ziel : MonoBehaviour
 {
 
-    private AudioSource finishSound;
+    public AudioSource Winner;
+    public AudioSource Loosing;
     private bool levelCompleted = false;
     private CoinManager cm;
     public GameObject Firstkugelscript;
@@ -16,7 +17,8 @@ public class Ziel : MonoBehaviour
 
     private void Start()
     {
-        finishSound = GetComponent<AudioSource>();
+       // Winner = GetComponent<AudioSource>();
+
         CoinManager coinManager = GameObject.FindGameObjectWithTag("CoinCounter").GetComponent<CoinManager>();
         cm = coinManager;
         Winnertext.enabled = false;
@@ -36,11 +38,13 @@ public class Ziel : MonoBehaviour
             Winnertext.enabled = true;
             weiterbutton.EnableButton();
 
-            if(GewetteteFarbeScript.GetComponent<KugelWetteUI>().GewetteteFarbe() == Firstkugelscript.GetComponent<Firstkugel>().getfirstFarbe())
+            if (GewetteteFarbeScript.GetComponent<KugelWetteUI>().GewetteteFarbe() == Firstkugelscript.GetComponent<Firstkugel>().getfirstFarbe())
             {
-                finishSound.Play();
+                Winner.Play();
                 cm.Addmoney();
             }
+            else
+                Loosing.Play();
          //   weiterbutton.EnableButton();
         }
     }
