@@ -1,0 +1,285 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6042909417885376313
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6042909417885376318}
+  m_Layer: 0
+  m_Name: PokerChipStapel
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6042909417885376318
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6042909417885376313}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.42277104, y: -3.2604477, z: -0.6576294}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4773980882881160161}
+  - {fileID: 4773980881982479897}
+  - {fileID: 4773980882612623817}
+  - {fileID: 4773980881980933687}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &6042909416811256338
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 6042909417885376318}
+    m_Modifications:
+    - target: {fileID: 1268937885008495627, guid: 958cf1d925e225e478ca748faaf45f87, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1268937885008495627, guid: 958cf1d925e225e478ca748faaf45f87, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.0021289587
+      objectReference: {fileID: 0}
+    - target: {fileID: 1268937885008495627, guid: 958cf1d925e225e478ca748faaf45f87, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.12595224
+      objectReference: {fileID: 0}
+    - target: {fileID: 1268937885008495627, guid: 958cf1d925e225e478ca748faaf45f87, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.09927064
+      objectReference: {fileID: 0}
+    - target: {fileID: 1268937885008495627, guid: 958cf1d925e225e478ca748faaf45f87, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.69688874
+      objectReference: {fileID: 0}
+    - target: {fileID: 1268937885008495627, guid: 958cf1d925e225e478ca748faaf45f87, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.57288235
+      objectReference: {fileID: 0}
+    - target: {fileID: 1268937885008495627, guid: 958cf1d925e225e478ca748faaf45f87, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.33509067
+      objectReference: {fileID: 0}
+    - target: {fileID: 1268937885008495627, guid: 958cf1d925e225e478ca748faaf45f87, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.27178347
+      objectReference: {fileID: 0}
+    - target: {fileID: 1268937885008495627, guid: 958cf1d925e225e478ca748faaf45f87, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -78.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 1268937885008495627, guid: 958cf1d925e225e478ca748faaf45f87, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -52.59
+      objectReference: {fileID: 0}
+    - target: {fileID: 1268937885008495627, guid: 958cf1d925e225e478ca748faaf45f87, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -358.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1934292621686464177, guid: 958cf1d925e225e478ca748faaf45f87, type: 3}
+      propertyPath: m_Name
+      value: Poker Chip (Red) (2)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 958cf1d925e225e478ca748faaf45f87, type: 3}
+--- !u!4 &4773980881982479897 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1268937885008495627, guid: 958cf1d925e225e478ca748faaf45f87, type: 3}
+  m_PrefabInstance: {fileID: 6042909416811256338}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &6042909416813838908
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 6042909417885376318}
+    m_Modifications:
+    - target: {fileID: 1268937885008495627, guid: 958cf1d925e225e478ca748faaf45f87, type: 3}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1268937885008495627, guid: 958cf1d925e225e478ca748faaf45f87, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.002371043
+      objectReference: {fileID: 0}
+    - target: {fileID: 1268937885008495627, guid: 958cf1d925e225e478ca748faaf45f87, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.0969522
+      objectReference: {fileID: 0}
+    - target: {fileID: 1268937885008495627, guid: 958cf1d925e225e478ca748faaf45f87, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.09577066
+      objectReference: {fileID: 0}
+    - target: {fileID: 1268937885008495627, guid: 958cf1d925e225e478ca748faaf45f87, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.7456992
+      objectReference: {fileID: 0}
+    - target: {fileID: 1268937885008495627, guid: 958cf1d925e225e478ca748faaf45f87, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.6452833
+      objectReference: {fileID: 0}
+    - target: {fileID: 1268937885008495627, guid: 958cf1d925e225e478ca748faaf45f87, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.15520759
+      objectReference: {fileID: 0}
+    - target: {fileID: 1268937885008495627, guid: 958cf1d925e225e478ca748faaf45f87, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.058760613
+      objectReference: {fileID: 0}
+    - target: {fileID: 1268937885008495627, guid: 958cf1d925e225e478ca748faaf45f87, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -78.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 1268937885008495627, guid: 958cf1d925e225e478ca748faaf45f87, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -52.59
+      objectReference: {fileID: 0}
+    - target: {fileID: 1268937885008495627, guid: 958cf1d925e225e478ca748faaf45f87, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -324.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 1934292621686464177, guid: 958cf1d925e225e478ca748faaf45f87, type: 3}
+      propertyPath: m_Name
+      value: Poker Chip (Red) (4)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 958cf1d925e225e478ca748faaf45f87, type: 3}
+--- !u!4 &4773980881980933687 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1268937885008495627, guid: 958cf1d925e225e478ca748faaf45f87, type: 3}
+  m_PrefabInstance: {fileID: 6042909416813838908}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &6042909417456147906
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 6042909417885376318}
+    m_Modifications:
+    - target: {fileID: 1268937885008495627, guid: 958cf1d925e225e478ca748faaf45f87, type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1268937885008495627, guid: 958cf1d925e225e478ca748faaf45f87, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.00017103553
+      objectReference: {fileID: 0}
+    - target: {fileID: 1268937885008495627, guid: 958cf1d925e225e478ca748faaf45f87, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.11095238
+      objectReference: {fileID: 0}
+    - target: {fileID: 1268937885008495627, guid: 958cf1d925e225e478ca748faaf45f87, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.09747064
+      objectReference: {fileID: 0}
+    - target: {fileID: 1268937885008495627, guid: 958cf1d925e225e478ca748faaf45f87, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.7315138
+      objectReference: {fileID: 0}
+    - target: {fileID: 1268937885008495627, guid: 958cf1d925e225e478ca748faaf45f87, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.61929613
+      objectReference: {fileID: 0}
+    - target: {fileID: 1268937885008495627, guid: 958cf1d925e225e478ca748faaf45f87, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.23864672
+      objectReference: {fileID: 0}
+    - target: {fileID: 1268937885008495627, guid: 958cf1d925e225e478ca748faaf45f87, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.15622973
+      objectReference: {fileID: 0}
+    - target: {fileID: 1268937885008495627, guid: 958cf1d925e225e478ca748faaf45f87, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -78.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 1268937885008495627, guid: 958cf1d925e225e478ca748faaf45f87, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -52.59
+      objectReference: {fileID: 0}
+    - target: {fileID: 1268937885008495627, guid: 958cf1d925e225e478ca748faaf45f87, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -340
+      objectReference: {fileID: 0}
+    - target: {fileID: 1934292621686464177, guid: 958cf1d925e225e478ca748faaf45f87, type: 3}
+      propertyPath: m_Name
+      value: Poker Chip (Red) (3)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 958cf1d925e225e478ca748faaf45f87, type: 3}
+--- !u!4 &4773980882612623817 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1268937885008495627, guid: 958cf1d925e225e478ca748faaf45f87, type: 3}
+  m_PrefabInstance: {fileID: 6042909417456147906}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &6042909417724487658
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 6042909417885376318}
+    m_Modifications:
+    - target: {fileID: 1268937885008495627, guid: 958cf1d925e225e478ca748faaf45f87, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1268937885008495627, guid: 958cf1d925e225e478ca748faaf45f87, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.004428953
+      objectReference: {fileID: 0}
+    - target: {fileID: 1268937885008495627, guid: 958cf1d925e225e478ca748faaf45f87, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.13995218
+      objectReference: {fileID: 0}
+    - target: {fileID: 1268937885008495627, guid: 958cf1d925e225e478ca748faaf45f87, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.100970626
+      objectReference: {fileID: 0}
+    - target: {fileID: 1268937885008495627, guid: 958cf1d925e225e478ca748faaf45f87, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.7456992
+      objectReference: {fileID: 0}
+    - target: {fileID: 1268937885008495627, guid: 958cf1d925e225e478ca748faaf45f87, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.6452833
+      objectReference: {fileID: 0}
+    - target: {fileID: 1268937885008495627, guid: 958cf1d925e225e478ca748faaf45f87, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.15520759
+      objectReference: {fileID: 0}
+    - target: {fileID: 1268937885008495627, guid: 958cf1d925e225e478ca748faaf45f87, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.058760613
+      objectReference: {fileID: 0}
+    - target: {fileID: 1268937885008495627, guid: 958cf1d925e225e478ca748faaf45f87, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -78.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 1268937885008495627, guid: 958cf1d925e225e478ca748faaf45f87, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -52.59
+      objectReference: {fileID: 0}
+    - target: {fileID: 1268937885008495627, guid: 958cf1d925e225e478ca748faaf45f87, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -324.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 1934292621686464177, guid: 958cf1d925e225e478ca748faaf45f87, type: 3}
+      propertyPath: m_Name
+      value: Poker Chip (Red) (1)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 958cf1d925e225e478ca748faaf45f87, type: 3}
+--- !u!4 &4773980882881160161 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1268937885008495627, guid: 958cf1d925e225e478ca748faaf45f87, type: 3}
+  m_PrefabInstance: {fileID: 6042909417724487658}
+  m_PrefabAsset: {fileID: 0}

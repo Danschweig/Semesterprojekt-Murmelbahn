@@ -15,8 +15,8 @@ public class Kugeln : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        //if (Input.GetKeyDown(KeyCode.J))
-          //  KinematicFalse();
+        if (Input.GetKeyDown(KeyCode.J))
+            KinematicFalse();
     }
 
     public void KinematicTrue()
