@@ -607,6 +607,5 @@ PrefabInstance:
       propertyPath: m_Name
       value: Roulette Wheel (1) Variant
       objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 6306840291080513086, guid: 58f960146418663458184c1778c7c7e3, type: 3}
+    m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 58f960146418663458184c1778c7c7e3, type: 3}
