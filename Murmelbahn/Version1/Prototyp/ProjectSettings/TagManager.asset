@@ -21,6 +21,7 @@ TagManager:
   - CoinCounter
   - erstekugeltext
   - murmeln
+  - kugelwette
   layers:
   - Default
   - TransparentFX

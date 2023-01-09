@@ -4,8 +4,7 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
-
-public class lvl2start : MonoBehaviour
+public class Lvl3start : MonoBehaviour
 {
     public int geld;
     public Text zuTeuer;
@@ -14,13 +13,13 @@ public class lvl2start : MonoBehaviour
         geld = PlayerPrefs.GetInt("Money", 0);
         zuTeuer.enabled = false;
     }
-    public void StartLevel2()
+    public void StartLevel3()
     {
         if (geld >= 20)
         {
             geld -= 20;
             PlayerPrefs.SetInt("Money", geld);
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 2);
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 3);
         }
         else
         {
