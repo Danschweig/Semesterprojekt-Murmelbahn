@@ -371,6 +371,7 @@
 "Assets/scripts/LevelStarts/lvl2start.cs"
 "Assets/scripts/LevelStarts/Lvl3start.cs"
 "Assets/scripts/LevelStarts/Lvl4start.cs"
+"Assets/scripts/MovingBackAForward.cs"
 "Assets/scripts/ShopSystem.cs"
 "Assets/scripts/Ziel.cs"
 -langversion:9.0
