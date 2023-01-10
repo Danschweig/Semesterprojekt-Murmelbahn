@@ -12,6 +12,8 @@ public class CoinManager : MonoBehaviour
     void Start()
     {
         geld = PlayerPrefs.GetInt("Money", 0);
+        geld += 80;
+        PlayerPrefs.SetInt("Money", geld);
     }
 
     // Update is called once per frame
