@@ -79,7 +79,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Erste Farbe:'
+  m_Text: 'First Color:'
 --- !u!1 &2275409316914809553
 GameObject:
   m_ObjectHideFlags: 0
@@ -159,7 +159,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Auf eine Farbe Wetten:'
+  m_Text: 'Bet on a Color:'
 --- !u!1 &2421283749349755205
 GameObject:
   m_ObjectHideFlags: 0
@@ -758,7 +758,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   farbe: 0
-  StartText: {fileID: 136085967768816698}
 --- !u!1 &5568693719845232890
 GameObject:
   m_ObjectHideFlags: 0
@@ -839,7 +838,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "auf GR\xDCN gewettet"
+  m_Text: 'Your Bet: XXX'
 --- !u!114 &1513749336789932381
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -977,7 +976,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "gr\xFCn"
+  m_Text: green
 --- !u!1 &7098541573543355715
 GameObject:
   m_ObjectHideFlags: 0
@@ -1137,7 +1136,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: blau
+  m_Text: blue
 --- !u!1 &7894093999333274290
 GameObject:
   m_ObjectHideFlags: 0
@@ -1539,7 +1538,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Rot
+  m_Text: red
 --- !u!1 &9143543136030310270
 GameObject:
   m_ObjectHideFlags: 0
@@ -2104,7 +2103,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Farbe
+  m_Text: Color
 --- !u!114 &9143543137292965027
 MonoBehaviour:
   m_ObjectHideFlags: 0
