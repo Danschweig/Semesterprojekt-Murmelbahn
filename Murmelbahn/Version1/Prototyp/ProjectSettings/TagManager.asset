@@ -22,6 +22,7 @@ TagManager:
   - erstekugeltext
   - murmeln
   - kugelwette
+  - starttext
   layers:
   - Default
   - TransparentFX

@@ -1,10 +1,17 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class KugelWetteUI : MonoBehaviour
 {
     public string farbe = null; //1=rot,2=blau,3=grün
+    private Text StartText;
+    private void Start()
+    {
+        StartText = GameObject.FindGameObjectWithTag("starttext").GetComponent<Text>();
+        StartText.enabled = false;
+    }
     void Einblenden()
     {
         gameObject.SetActive(true);
@@ -13,6 +20,7 @@ public class KugelWetteUI : MonoBehaviour
     {
         GameObject.FindGameObjectWithTag("murmeln").GetComponent<AudioSource>().Play();
         gameObject.SetActive(false);
+        StartText.enabled = true;
     }
     void AusblendenInvoke()
     {
@@ -28,6 +36,7 @@ public class KugelWetteUI : MonoBehaviour
     {
         farbe = "blau";
         AusblendenInvoke();
+        
         GameObject.FindGameObjectWithTag("murmeln").GetComponent<Kugeln>().KinematicFalse();
     }
     public void WetteAufGruen()
