@@ -18,11 +18,11 @@ public class ErsteFarbe : MonoBehaviour
     void Update()
     {
         ersteKugelFarbe.text = farbe.GetComponent<Firstkugel>().getfirstFarbe();
-        if (ersteKugelFarbe.text == " rot")
+        if (ersteKugelFarbe.text == " red")
             background.GetComponent<FarbeErstKugHintergrund>().ChangeToRed();
-        else if (ersteKugelFarbe.text == "blau")
+        else if (ersteKugelFarbe.text == "blue")
             background.GetComponent<FarbeErstKugHintergrund>().ChangeToBlau();
-        else if (ersteKugelFarbe.text == "grün")
+        else if (ersteKugelFarbe.text == "green")
             background.GetComponent<FarbeErstKugHintergrund>().ChangeToGreen();
     }
 }

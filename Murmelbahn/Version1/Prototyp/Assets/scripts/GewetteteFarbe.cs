@@ -21,13 +21,13 @@ public class GewetteteFarbe : MonoBehaviour
     void Update()
     {
         gewettetefarbe = GewetteteFarbeScript.GetComponent<KugelWetteUI>().GewetteteFarbe();
-        gewetteteKugelFarbe.text = "auf " +gewettetefarbe+ " gewettet";
+        gewetteteKugelFarbe.text = "your bet: " + gewettetefarbe;//"auf " +gewettetefarbe+ " gewettet";
         
-        if (gewettetefarbe == " rot")
+        if (gewettetefarbe == " red")
             background.GetComponent<FarbeErstKugHintergrund>().ChangeToRed();
-        else if (gewettetefarbe == "blau")
+        else if (gewettetefarbe == "blue")
             background.GetComponent<FarbeErstKugHintergrund>().ChangeToBlau();
-        else if (gewettetefarbe == "grün")
+        else if (gewettetefarbe == "green")
             background.GetComponent<FarbeErstKugHintergrund>().ChangeToGreen();
     
         }

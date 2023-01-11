@@ -28,20 +28,20 @@ public class KugelWetteUI : MonoBehaviour
     }
     public void WetteAufRot()
     {
-        farbe = " rot";
+        farbe = " red";
         AusblendenInvoke();
         GameObject.FindGameObjectWithTag("murmeln").GetComponent<Kugeln>().KinematicFalse();
     }
     public void WetteAufBlau()
     {
-        farbe = "blau";
+        farbe = "blue";
         AusblendenInvoke();
         
         GameObject.FindGameObjectWithTag("murmeln").GetComponent<Kugeln>().KinematicFalse();
     }
     public void WetteAufGruen()
     {
-        farbe = "grün";
+        farbe = "green";
         AusblendenInvoke();
         GameObject.FindGameObjectWithTag("murmeln").GetComponent<Kugeln>().KinematicFalse();
     }
