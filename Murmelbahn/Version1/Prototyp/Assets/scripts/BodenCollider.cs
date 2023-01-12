@@ -4,15 +4,14 @@ using UnityEngine;
 
 public class BodenCollider : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    private void OnCollisionEnter(Collision collision)
     {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        GameObject kugel = collision.collider.gameObject;
+        if(kugel != GameObject.FindGameObjectWithTag("firstkugel"))
+        {
+            kugel.transform.position = new Vector3(0, 15, 0);
+            kugel.SetActive(false);
+            //kugel.GetComponent<Rigidbody>().isKinematic = true;
+        }
     }
 }

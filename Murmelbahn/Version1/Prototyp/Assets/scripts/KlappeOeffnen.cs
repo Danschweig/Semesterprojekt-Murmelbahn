@@ -34,7 +34,5 @@ public class KlappeOeffnen : MonoBehaviour
         kugelBoxB.GetComponent<BoxCollider>().enabled = false;
         kugelBoxC.GetComponent<BoxCollider>().enabled = false;
         starttext.enabled = false;
-
-
     }
 }

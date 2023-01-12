@@ -2,6 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
+
 
 public class KugelWetteUI : MonoBehaviour
 {
@@ -9,8 +11,11 @@ public class KugelWetteUI : MonoBehaviour
     private Text StartText;
     private void Start()
     {
-        StartText = GameObject.FindGameObjectWithTag("starttext").GetComponent<Text>();
-        StartText.enabled = false;
+        if (SceneManager.GetActiveScene().buildIndex != 2)
+        {
+            StartText = GameObject.FindGameObjectWithTag("starttext").GetComponent<Text>();
+            StartText.enabled = false;
+        }
     }
     void Einblenden()
     {
@@ -20,7 +25,9 @@ public class KugelWetteUI : MonoBehaviour
     {
         GameObject.FindGameObjectWithTag("murmeln").GetComponent<AudioSource>().Play();
         gameObject.SetActive(false);
-        StartText.enabled = true;
+        if(SceneManager.GetActiveScene().buildIndex != 2)
+            StartText.enabled = true;
+        GameObject.FindGameObjectWithTag("murmeln").GetComponent<Kugeln>().KinematicFalse();
     }
     void AusblendenInvoke()
     {
@@ -29,21 +36,21 @@ public class KugelWetteUI : MonoBehaviour
     public void WetteAufRot()
     {
         farbe = " red";
-        Ausblenden();
-        GameObject.FindGameObjectWithTag("murmeln").GetComponent<Kugeln>().KinematicFalse();
+        AusblendenInvoke();
+        //GameObject.FindGameObjectWithTag("murmeln").GetComponent<Kugeln>().KinematicFalse();
     }
     public void WetteAufBlau()
     {
         farbe = "blue";
         Ausblenden();
         
-        GameObject.FindGameObjectWithTag("murmeln").GetComponent<Kugeln>().KinematicFalse();
+        //GameObject.FindGameObjectWithTag("murmeln").GetComponent<Kugeln>().KinematicFalse();
     }
     public void WetteAufGruen()
     {
         farbe = "green";
         Ausblenden();
-        GameObject.FindGameObjectWithTag("murmeln").GetComponent<Kugeln>().KinematicFalse();
+        //GameObject.FindGameObjectWithTag("murmeln").GetComponent<Kugeln>().KinematicFalse();
     }
     public string GewetteteFarbe()
     {
