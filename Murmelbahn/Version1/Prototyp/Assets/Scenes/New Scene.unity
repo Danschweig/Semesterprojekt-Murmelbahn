@@ -199,14 +199,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 121517404}
-  m_LocalRotation: {x: 0.29457176, y: -0.65188044, z: 0.30557117, w: 0.62841517}
+  m_LocalRotation: {x: 0.17598273, y: -0.70078605, z: 0.18515565, w: 0.6660679}
   m_LocalPosition: {x: 2.6, y: 3, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 50.23, y: -92.1, z: 0}
+  m_LocalEulerAnglesHint: {x: 29.6, y: -92.91, z: 0}
 --- !u!1 &197852577 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: dcf404eadce7d8140b2ab645facbca19, type: 3}
@@ -583,12 +583,24 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6989967182677964043, guid: fe67be9d787a9eb47b1c3b7f0e7e330b, type: 3}
+      propertyPath: m_Mass
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 6989967182677964043, guid: fe67be9d787a9eb47b1c3b7f0e7e330b, type: 3}
       propertyPath: m_UseGravity
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6989967182677964043, guid: fe67be9d787a9eb47b1c3b7f0e7e330b, type: 3}
       propertyPath: m_IsKinematic
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6989967182677964044, guid: fe67be9d787a9eb47b1c3b7f0e7e330b, type: 3}
+      propertyPath: m_Motor.force
+      value: 3.4028233e+38
+      objectReference: {fileID: 0}
+    - target: {fileID: 8087495496293815468, guid: fe67be9d787a9eb47b1c3b7f0e7e330b, type: 3}
+      propertyPath: m_Mass
+      value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 8273366386949113002, guid: fe67be9d787a9eb47b1c3b7f0e7e330b, type: 3}
       propertyPath: m_Name

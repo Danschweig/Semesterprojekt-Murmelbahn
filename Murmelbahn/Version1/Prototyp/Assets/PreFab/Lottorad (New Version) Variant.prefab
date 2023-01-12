@@ -2534,6 +2534,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4712174384265444265, guid: c34ab73bd1e6c8a4da612c2b85edd7a0, type: 3}
+      propertyPath: m_Mass
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 4712174384265444265, guid: c34ab73bd1e6c8a4da612c2b85edd7a0, type: 3}
       propertyPath: m_UseGravity
       value: 1
       objectReference: {fileID: 0}
@@ -2546,12 +2550,20 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4712174384265444270, guid: c34ab73bd1e6c8a4da612c2b85edd7a0, type: 3}
+      propertyPath: m_Motor.force
+      value: 3.4028233e+38
+      objectReference: {fileID: 0}
+    - target: {fileID: 4712174384265444270, guid: c34ab73bd1e6c8a4da612c2b85edd7a0, type: 3}
       propertyPath: m_EnableCollision
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5789612553488587273, guid: c34ab73bd1e6c8a4da612c2b85edd7a0, type: 3}
       propertyPath: m_EnableCollision
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5789612553488587278, guid: c34ab73bd1e6c8a4da612c2b85edd7a0, type: 3}
+      propertyPath: m_Mass
+      value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 5959596399690254856, guid: c34ab73bd1e6c8a4da612c2b85edd7a0, type: 3}
       propertyPath: m_Name
