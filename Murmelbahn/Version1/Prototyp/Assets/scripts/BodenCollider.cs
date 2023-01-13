@@ -9,9 +9,13 @@ public class BodenCollider : MonoBehaviour
         GameObject kugel = collision.collider.gameObject;
         if(kugel != GameObject.FindGameObjectWithTag("firstkugel"))
         {
-            kugel.transform.position = new Vector3(0, 15, 0);
-            kugel.SetActive(false);
+           // kugel.transform.position.Set() = 10;
+            kugel.transform.position = new Vector3(0, 150000, 0);
+           
+           // kugel.SetActive(false);
             //kugel.GetComponent<Rigidbody>().isKinematic = true;
         }
+
     }
+
 }

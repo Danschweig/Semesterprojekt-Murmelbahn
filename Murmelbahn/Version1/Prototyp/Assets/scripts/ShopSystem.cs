@@ -20,11 +20,11 @@ public class ShopSystem : MonoBehaviour
     {
         geld = PlayerPrefs.GetInt("Money", 0);
         zuTeuer.enabled = false;
-        //PlayerPrefs.SetInt("Level2", 0);
-        //PlayerPrefs.SetInt("Level3", 0);
-        //PlayerPrefs.SetInt("Level4", 0);
+        PlayerPrefs.SetInt("Level2", 0);
+        PlayerPrefs.SetInt("Level3", 0);
+        PlayerPrefs.SetInt("Level4", 0);
 
-        //PlayerPrefs.SetInt("Money", 80);
+        PlayerPrefs.SetInt("Money", 0);
 
         if (PlayerPrefs.GetInt("Level2", 0) == 1)
         {
@@ -40,11 +40,7 @@ public class ShopSystem : MonoBehaviour
         }
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+ 
     private void ZuTeuerdisable()
     {
         zuTeuer.enabled = false;
@@ -59,11 +55,11 @@ public class ShopSystem : MonoBehaviour
         {
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 2);
         }
-         else if (geld >= 10)
+         else if (PlayerPrefs.GetInt("Money", 0) >= 10)
         {
             Text2.SetActive(false);
-            geld -= 10;
-            PlayerPrefs.SetInt("Money", geld);
+           // geld -= 10;
+            PlayerPrefs.SetInt("Money", PlayerPrefs.GetInt("Money", 0)-10);
             PlayerPrefs.SetInt("Level2", 1);
             //SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 2);
         }
@@ -81,11 +77,11 @@ public class ShopSystem : MonoBehaviour
         {
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 3);
         }
-        else if (geld >= 20)
+        else if (PlayerPrefs.GetInt("Money",0) >= 20)
         {
             Text3.SetActive(false);
-            geld -= 20;
-            PlayerPrefs.SetInt("Money", geld);
+          //  geld -= 20;
+            PlayerPrefs.SetInt("Money", (PlayerPrefs.GetInt("Money", 0)-20));
             PlayerPrefs.SetInt("Level3", 1);
             //SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 3);
         }
@@ -102,11 +98,11 @@ public class ShopSystem : MonoBehaviour
         {
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 4);
         }
-        else if (geld >= 40)
+        else if (PlayerPrefs.GetInt("Money", 0) >= 40)
         {
             Text4.SetActive(false);
-            geld -= 40;
-            PlayerPrefs.SetInt("Money", geld);
+           // geld -= 40;
+            PlayerPrefs.SetInt("Money", PlayerPrefs.GetInt("Money", 0)-40);
             PlayerPrefs.SetInt("Level4", 1);
            // SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 4);
         }
