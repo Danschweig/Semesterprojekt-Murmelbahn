@@ -20,11 +20,11 @@ public class ShopSystem : MonoBehaviour
     {
         geld = PlayerPrefs.GetInt("Money", 0);
         zuTeuer.enabled = false;
-        PlayerPrefs.SetInt("Level2", 0);
-        PlayerPrefs.SetInt("Level3", 0);
-        PlayerPrefs.SetInt("Level4", 0);
+        //PlayerPrefs.SetInt("Level2", 0);
+        //PlayerPrefs.SetInt("Level3", 0);
+        //PlayerPrefs.SetInt("Level4", 0);
 
-        PlayerPrefs.SetInt("Money", 0);
+        //PlayerPrefs.SetInt("Money", 0);
 
         if (PlayerPrefs.GetInt("Level2", 0) == 1)
         {

@@ -12,8 +12,6 @@ public class CoinManager : MonoBehaviour
     void Start()
     {
         geld = PlayerPrefs.GetInt("Money", 0);
-        //geld = 0;
-        //PlayerPrefs.SetInt("Money", geld);
     }
 
     // Update is called once per frame
@@ -25,9 +23,23 @@ public class CoinManager : MonoBehaviour
     public void Addmoney()
     {
         if (SceneManager.GetActiveScene().buildIndex == 2)
-            geld += 5;
+        {
+            // geld += 5;
+            PlayerPrefs.SetInt("Money", PlayerPrefs.GetInt("Money", 0) + 5);
+        }
         else if (SceneManager.GetActiveScene().buildIndex == 3)
-            geld += 10;
-        PlayerPrefs.SetInt("Money", geld);
+        {
+            PlayerPrefs.SetInt("Money", PlayerPrefs.GetInt("Money", 0) + 10);
+        }
+        else if (SceneManager.GetActiveScene().buildIndex == 4)
+        {
+            PlayerPrefs.SetInt("Money", PlayerPrefs.GetInt("Money", 0) + 20);
+        }
+        else if (SceneManager.GetActiveScene().buildIndex == 5)
+        {
+            PlayerPrefs.SetInt("Money", PlayerPrefs.GetInt("Money", 0) + 30);
+        }
+        //geld += 10;
+        //PlayerPrefs.SetInt("Money", geld);
     }
 }

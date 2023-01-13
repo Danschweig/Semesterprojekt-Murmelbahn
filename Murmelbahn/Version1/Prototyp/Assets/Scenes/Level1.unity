@@ -282,7 +282,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6240646}
-  m_LocalRotation: {x: -0.31682622, y: 0.43789923, z: 0.16830142, w: 0.82434225}
+  m_LocalRotation: {x: -0.31682622, y: 0.43789923, z: 0.1683014, w: 0.8243422}
   m_LocalPosition: {x: 5.94, y: 0.85, z: 0.53}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -429,6 +429,14 @@ PrefabInstance:
     - target: {fileID: 3247838180230161414, guid: 951630c375a04784faaaa79123fc05b5, type: 3}
       propertyPath: Background
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5179329991284051488, guid: 951630c375a04784faaaa79123fc05b5, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 1661.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5955919672286026584, guid: 951630c375a04784faaaa79123fc05b5, type: 3}
+      propertyPath: m_Text
+      value: Winner is green
       objectReference: {fileID: 0}
     - target: {fileID: 7098541573543355715, guid: 951630c375a04784faaaa79123fc05b5, type: 3}
       propertyPath: m_IsActive

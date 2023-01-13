@@ -26,17 +26,15 @@ public class Ziel : MonoBehaviour
         weiterbutton.DisableButton();
     }
   
-
-
     private void OnTriggerEnter(Collider collision)
     {
        //farbe = Firstkugelscript.GetComponent<Firstkugel>().getfirstFarbe();
-
 
         if (!levelCompleted)
         {
             levelCompleted = true;
             Winnertext.text = "Winner is: " + Firstkugelscript.GetComponent<Firstkugel>().getfirstFarbe();
+           // Winnertext.text = "Winner is: " + GameObject.FindGameObjectWithTag("firstkugel").GetComponent<Firstkugel>().GetComponent<Firstkugel>().getfirstFarbe();
             Winnertext.enabled = true;
             weiterbutton.EnableButton();
             GameObject.FindGameObjectWithTag("murmeln").GetComponent<AudioSource>().Stop();
