@@ -12,14 +12,14 @@ public class CoinManager : MonoBehaviour
     void Start()
     {
         geld = PlayerPrefs.GetInt("Money", 0);
-        geld += 80;
-        PlayerPrefs.SetInt("Money", geld);
+        //geld = 0;
+        //PlayerPrefs.SetInt("Money", geld);
     }
 
     // Update is called once per frame
     void Update()
     {
-        money.text = PlayerPrefs.GetInt("Money", 0).ToString(); 
+        money.text = "coins: " + PlayerPrefs.GetInt("Money", 0).ToString(); 
     }
 
     public void Addmoney()
