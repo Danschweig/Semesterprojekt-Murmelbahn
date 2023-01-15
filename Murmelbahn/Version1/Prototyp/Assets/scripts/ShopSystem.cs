@@ -24,7 +24,7 @@ public class ShopSystem : MonoBehaviour
         //PlayerPrefs.SetInt("Level3", 0);
         //PlayerPrefs.SetInt("Level4", 0);
 
-        //PlayerPrefs.SetInt("Money", 0);
+        //PlayerPrefs.SetInt("Money", 20);
 
         if (PlayerPrefs.GetInt("Level2", 0) == 1)
         {
