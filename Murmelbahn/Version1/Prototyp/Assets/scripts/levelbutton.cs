@@ -18,5 +18,12 @@ public class Levelbutton : MonoBehaviour
     {
         SceneManager.LoadScene(1);
     }
-
+    public void StartStartScreen()
+    {
+        SceneManager.LoadScene(0);
+    }
+    public void Quit()
+    {
+        Application.Quit();
+    }
 }
