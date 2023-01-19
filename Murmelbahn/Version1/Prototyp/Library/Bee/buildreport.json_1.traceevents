@@ -1,0 +1,588 @@
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1674157716517766, "dur": 2533625, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1674157716518116, "dur": 5120, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1674157716523252, "dur": 31873, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1674157716555127, "dur": 269864, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1674157716824993, "dur": 2224566, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1674157719049560, "dur": 1830, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1674157719052012, "dur": 18, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "netcorerun.dll" } },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-1" } },
+{ "pid": 35942, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 35942, "tid": 1, "ts": 1674157716670084, "dur": 133081, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1674157716671068, "dur": 55831, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1674157716782255, "dur": 7305, "ph": "X", "name": "OutputData.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1674157716789578, "dur": 13581, "ph": "X", "name": "Backend.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1674157716792333, "dur": 10253, "ph": "X", "name": "JsonToString", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1674157716812256, "dur": 2689, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1674157716810881, "dur": 4121, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1674157719052136, "dur": 286, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1674157716865867, "dur":1110, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1674157716866984, "dur":64, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1674157716867100, "dur":11, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1674157716867111, "dur":272, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1674157716867408, "dur":577, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1674157716867985, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1674157719026306, "dur":328, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1674157719026635, "dur":13, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1674157719026648, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1674157719026650, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1674157719026654, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1674157719026655, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1674157719026661, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1674157719026662, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1674157719026668, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1674157719026669, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1674157719026673, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1674157719026674, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1674157719026680, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1674157719026681, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1674157719026686, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1674157719026687, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1674157719026691, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1674157719026704, "dur":2, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1674157719026728, "dur":1770, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1674157716867632, "dur":358, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1674157716867991, "dur":6660, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1674157716874711, "dur":6, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1674157716874740, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1674157716876114, "dur":610, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1674157716876744, "dur":181, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benes/OneDrive/Desktop/vv/CasinoMurmeln_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1674157716876943, "dur":16, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1674157716877919, "dur":10433, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/benes/OneDrive/Desktop/vv/CasinoMurmeln_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1674157716888355, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benes/OneDrive/Desktop/vv/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1674157716888426, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1674157716888843, "dur":753, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/benes/OneDrive/Desktop/vv/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1674157716889637, "dur":143, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benes/OneDrive/Desktop/vv/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1674157716889782, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1674157716889790, "dur":1067, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/benes/OneDrive/Desktop/vv/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1674157716890923, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benes/OneDrive/Desktop/vv/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":1, "ts":1674157716890990, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1674157716891000, "dur":2453, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/benes/OneDrive/Desktop/vv/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":1, "ts":1674157716893538, "dur":19488, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benes/OneDrive/Desktop/vv/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674157716913032, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1674157717011904, "dur":44169, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/benes/OneDrive/Desktop/vv/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674157717056134, "dur":264010, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benes/OneDrive/Desktop/vv/CasinoMurmeln_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674157717320154, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1674157717320179, "dur":2649, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/benes/OneDrive/Desktop/vv/CasinoMurmeln_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674157717322884, "dur":244391, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benes/OneDrive/Desktop/vv/CasinoMurmeln_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674157717567290, "dur":18, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1674157717567322, "dur":1896, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/benes/OneDrive/Desktop/vv/CasinoMurmeln_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674157717569292, "dur":45119, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benes/OneDrive/Desktop/vv/CasinoMurmeln_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674157717614417, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1674157717614429, "dur":1172, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/benes/OneDrive/Desktop/vv/CasinoMurmeln_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674157717615661, "dur":139994, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benes/OneDrive/Desktop/vv/CasinoMurmeln_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674157717755662, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1674157717755673, "dur":1292, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/benes/OneDrive/Desktop/vv/CasinoMurmeln_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674157717757025, "dur":69279, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benes/OneDrive/Desktop/vv/CasinoMurmeln_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674157717826312, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1674157717826333, "dur":1126, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/benes/OneDrive/Desktop/vv/CasinoMurmeln_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674157717827509, "dur":436857, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benes/OneDrive/Desktop/vv/CasinoMurmeln_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674157718264387, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1674157718264399, "dur":1477, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/benes/OneDrive/Desktop/vv/CasinoMurmeln_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674157718265927, "dur":457673, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benes/OneDrive/Desktop/vv/CasinoMurmeln_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674157718723605, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1674157718723616, "dur":10698, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/benes/OneDrive/Desktop/vv/CasinoMurmeln_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674157718734374, "dur":291961, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1674157716867697, "dur":368, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1674157716868065, "dur":6591, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1674157716874711, "dur":398, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benes/OneDrive/Desktop/vv/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":2, "ts":1674157716875112, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1674157717012235, "dur":1025, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/benes/OneDrive/Desktop/vv/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":2, "ts":1674157717013334, "dur":235024, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benes/OneDrive/Desktop/vv/CasinoMurmeln_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674157717248383, "dur":10, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1674157717248432, "dur":5773, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/benes/OneDrive/Desktop/vv/CasinoMurmeln_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674157717254443, "dur":61908, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benes/OneDrive/Desktop/vv/CasinoMurmeln_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674157717316380, "dur":11, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1674157717316429, "dur":33004, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/benes/OneDrive/Desktop/vv/CasinoMurmeln_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674157717349481, "dur":122682, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benes/OneDrive/Desktop/vv/CasinoMurmeln_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674157717472168, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1674157717472187, "dur":2030, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/benes/OneDrive/Desktop/vv/CasinoMurmeln_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674157717474272, "dur":41325, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benes/OneDrive/Desktop/vv/CasinoMurmeln_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674157717515602, "dur":17, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1674157717515674, "dur":1708, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/benes/OneDrive/Desktop/vv/CasinoMurmeln_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674157717517437, "dur":38558, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benes/OneDrive/Desktop/vv/CasinoMurmeln_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674157717556001, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1674157717556013, "dur":1465, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/benes/OneDrive/Desktop/vv/CasinoMurmeln_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674157717557578, "dur":54149, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benes/OneDrive/Desktop/vv/CasinoMurmeln_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674157717611731, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1674157717611740, "dur":1064, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/benes/OneDrive/Desktop/vv/CasinoMurmeln_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674157717612855, "dur":37633, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benes/OneDrive/Desktop/vv/CasinoMurmeln_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674157717650495, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1674157717650511, "dur":1646, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/benes/OneDrive/Desktop/vv/CasinoMurmeln_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674157717652228, "dur":72424, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benes/OneDrive/Desktop/vv/CasinoMurmeln_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674157717724659, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1674157717724671, "dur":3363, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/benes/OneDrive/Desktop/vv/CasinoMurmeln_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674157717729145, "dur":48340, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benes/OneDrive/Desktop/vv/CasinoMurmeln_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674157717777491, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1674157717777502, "dur":1100, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/benes/OneDrive/Desktop/vv/CasinoMurmeln_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674157717778658, "dur":45097, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benes/OneDrive/Desktop/vv/CasinoMurmeln_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674157717823760, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1674157717823771, "dur":1130, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/benes/OneDrive/Desktop/vv/CasinoMurmeln_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674157717824959, "dur":138436, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benes/OneDrive/Desktop/vv/CasinoMurmeln_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674157717963399, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1674157717963412, "dur":3790, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/benes/OneDrive/Desktop/vv/CasinoMurmeln_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674157717967278, "dur":4936, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benes/OneDrive/Desktop/vv/CasinoMurmeln_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674157717972219, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1674157717972229, "dur":11666, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/benes/OneDrive/Desktop/vv/CasinoMurmeln_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674157717983976, "dur":45435, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benes/OneDrive/Desktop/vv/CasinoMurmeln_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674157718029417, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1674157718029429, "dur":1116, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/benes/OneDrive/Desktop/vv/CasinoMurmeln_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674157718030632, "dur":250627, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benes/OneDrive/Desktop/vv/CasinoMurmeln_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674157718281264, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1674157718281275, "dur":1779, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/benes/OneDrive/Desktop/vv/CasinoMurmeln_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674157718283118, "dur":226048, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benes/OneDrive/Desktop/vv/CasinoMurmeln_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674157718509171, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1674157718509183, "dur":2200, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/benes/OneDrive/Desktop/vv/CasinoMurmeln_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674157718511442, "dur":505786, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benes/OneDrive/Desktop/vv/CasinoMurmeln_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674157719017237, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1674157719017251, "dur":8932, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/benes/OneDrive/Desktop/vv/CasinoMurmeln_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674157719026239, "dur":4, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":2, "ts":1674157719026245, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1674157716867656, "dur":338, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1674157716867994, "dur":6751, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1674157716874748, "dur":208, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benes/OneDrive/Desktop/vv/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1674157716874959, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1674157716888319, "dur":959, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/benes/OneDrive/Desktop/vv/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1674157716889340, "dur":139, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benes/OneDrive/Desktop/vv/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1674157716889482, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1674157716889543, "dur":1101, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/benes/OneDrive/Desktop/vv/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1674157716890710, "dur":74, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benes/OneDrive/Desktop/vv/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1674157716890790, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1674157716890803, "dur":9956, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/benes/OneDrive/Desktop/vv/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1674157716901059, "dur":1677, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benes/OneDrive/Desktop/vv/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":3, "ts":1674157716902739, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1674157716902746, "dur":2317, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/benes/OneDrive/Desktop/vv/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":3, "ts":1674157716905130, "dur":47536, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benes/OneDrive/Desktop/vv/CasinoMurmeln_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1674157716952673, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1674157716953052, "dur":61607, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/benes/OneDrive/Desktop/vv/CasinoMurmeln_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1674157717014711, "dur":95853, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benes/OneDrive/Desktop/vv/CasinoMurmeln_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1674157717110573, "dur":19, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1674157717110626, "dur":1313, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/benes/OneDrive/Desktop/vv/CasinoMurmeln_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1674157717112281, "dur":49178, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benes/OneDrive/Desktop/vv/CasinoMurmeln_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1674157717161490, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1674157717161502, "dur":1885, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/benes/OneDrive/Desktop/vv/CasinoMurmeln_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1674157717163447, "dur":68791, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benes/OneDrive/Desktop/vv/CasinoMurmeln_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1674157717232253, "dur":7, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1674157717232284, "dur":2305, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/benes/OneDrive/Desktop/vv/CasinoMurmeln_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1674157717234652, "dur":376612, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benes/OneDrive/Desktop/vv/CasinoMurmeln_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":3, "ts":1674157717611269, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1674157717611282, "dur":1277, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/benes/OneDrive/Desktop/vv/CasinoMurmeln_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":3, "ts":1674157717612610, "dur":44206, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benes/OneDrive/Desktop/vv/CasinoMurmeln_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1674157717656822, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1674157717656833, "dur":1141, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/benes/OneDrive/Desktop/vv/CasinoMurmeln_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1674157717658025, "dur":41416, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benes/OneDrive/Desktop/vv/CasinoMurmeln_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1674157717699446, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1674157717699455, "dur":1374, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/benes/OneDrive/Desktop/vv/CasinoMurmeln_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1674157717700883, "dur":86220, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benes/OneDrive/Desktop/vv/CasinoMurmeln_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1674157717787109, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1674157717787121, "dur":6672, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/benes/OneDrive/Desktop/vv/CasinoMurmeln_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1674157717794057, "dur":173820, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benes/OneDrive/Desktop/vv/CasinoMurmeln_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":3, "ts":1674157717967881, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1674157717967919, "dur":2910, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/benes/OneDrive/Desktop/vv/CasinoMurmeln_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":3, "ts":1674157717970896, "dur":887, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benes/OneDrive/Desktop/vv/CasinoMurmeln_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":3, "ts":1674157717971789, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1674157717971803, "dur":1429, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/benes/OneDrive/Desktop/vv/CasinoMurmeln_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":3, "ts":1674157717973289, "dur":41752, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benes/OneDrive/Desktop/vv/CasinoMurmeln_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":3, "ts":1674157718015047, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1674157718015058, "dur":1360, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/benes/OneDrive/Desktop/vv/CasinoMurmeln_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":3, "ts":1674157718016486, "dur":458189, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benes/OneDrive/Desktop/vv/CasinoMurmeln_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":3, "ts":1674157718474681, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1674157718474692, "dur":12748, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/benes/OneDrive/Desktop/vv/CasinoMurmeln_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":3, "ts":1674157718487498, "dur":82880, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benes/OneDrive/Desktop/vv/CasinoMurmeln_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":3, "ts":1674157718570384, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1674157718570396, "dur":1133, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/benes/OneDrive/Desktop/vv/CasinoMurmeln_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":3, "ts":1674157718571575, "dur":135146, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benes/OneDrive/Desktop/vv/CasinoMurmeln_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":3, "ts":1674157718706768, "dur":11, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1674157718706807, "dur":4607, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/benes/OneDrive/Desktop/vv/CasinoMurmeln_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":3, "ts":1674157718711551, "dur":314773, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1674157716867710, "dur":359, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1674157716868070, "dur":6614, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1674157716874711, "dur":343, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benes/OneDrive/Desktop/vv/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1674157716875058, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1674157716888622, "dur":863, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/benes/OneDrive/Desktop/vv/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1674157716889528, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benes/OneDrive/Desktop/vv/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1674157716889575, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1674157716889583, "dur":1163, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/benes/OneDrive/Desktop/vv/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1674157716890814, "dur":77, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benes/OneDrive/Desktop/vv/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":4, "ts":1674157716890895, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1674157716890905, "dur":1102, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/benes/OneDrive/Desktop/vv/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":4, "ts":1674157716892083, "dur":982, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benes/OneDrive/Desktop/vv/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":4, "ts":1674157716893073, "dur":8, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1674157716893419, "dur":4596, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/benes/OneDrive/Desktop/vv/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":4, "ts":1674157716898190, "dur":58938, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benes/OneDrive/Desktop/vv/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":4, "ts":1674157716957167, "dur":2473, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1674157716959659, "dur":97450, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/benes/OneDrive/Desktop/vv/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":4, "ts":1674157717057165, "dur":101669, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benes/OneDrive/Desktop/vv/CasinoMurmeln_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1674157717158841, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1674157717158853, "dur":18819, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/benes/OneDrive/Desktop/vv/CasinoMurmeln_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1674157717177740, "dur":83738, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benes/OneDrive/Desktop/vv/CasinoMurmeln_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1674157717261484, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1674157717261495, "dur":42465, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/benes/OneDrive/Desktop/vv/CasinoMurmeln_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1674157717304010, "dur":100259, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benes/OneDrive/Desktop/vv/CasinoMurmeln_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1674157717404275, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1674157717404285, "dur":1226, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/benes/OneDrive/Desktop/vv/CasinoMurmeln_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1674157717405565, "dur":57266, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benes/OneDrive/Desktop/vv/CasinoMurmeln_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1674157717462864, "dur":9, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1674157717462885, "dur":1525, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/benes/OneDrive/Desktop/vv/CasinoMurmeln_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1674157717464455, "dur":64663, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benes/OneDrive/Desktop/vv/CasinoMurmeln_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1674157717529124, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1674157717529136, "dur":2099, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/benes/OneDrive/Desktop/vv/CasinoMurmeln_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1674157717531292, "dur":67268, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benes/OneDrive/Desktop/vv/CasinoMurmeln_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1674157717598565, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1674157717598598, "dur":1055, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/benes/OneDrive/Desktop/vv/CasinoMurmeln_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1674157717599703, "dur":54500, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benes/OneDrive/Desktop/vv/CasinoMurmeln_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1674157717654207, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1674157717654216, "dur":3177, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/benes/OneDrive/Desktop/vv/CasinoMurmeln_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1674157717657466, "dur":234029, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benes/OneDrive/Desktop/vv/CasinoMurmeln_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1674157717891503, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1674157717891515, "dur":9643, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/benes/OneDrive/Desktop/vv/CasinoMurmeln_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1674157717901218, "dur":86582, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benes/OneDrive/Desktop/vv/CasinoMurmeln_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":4, "ts":1674157717987809, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1674157717987820, "dur":1296, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/benes/OneDrive/Desktop/vv/CasinoMurmeln_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":4, "ts":1674157717989180, "dur":32440, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benes/OneDrive/Desktop/vv/CasinoMurmeln_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":4, "ts":1674157718021637, "dur":13, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1674157718021673, "dur":6190, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/benes/OneDrive/Desktop/vv/CasinoMurmeln_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":4, "ts":1674157718027919, "dur":261475, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benes/OneDrive/Desktop/vv/CasinoMurmeln_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":4, "ts":1674157718289415, "dur":43, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1674157718289492, "dur":7634, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/benes/OneDrive/Desktop/vv/CasinoMurmeln_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":4, "ts":1674157718297175, "dur":214314, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benes/OneDrive/Desktop/vv/CasinoMurmeln_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":4, "ts":1674157718511494, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1674157718511538, "dur":2005, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/benes/OneDrive/Desktop/vv/CasinoMurmeln_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":4, "ts":1674157718513592, "dur":332669, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benes/OneDrive/Desktop/vv/CasinoMurmeln_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":4, "ts":1674157718846266, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1674157718846274, "dur":948, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/benes/OneDrive/Desktop/vv/CasinoMurmeln_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":4, "ts":1674157718847260, "dur":179045, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1674157716867671, "dur":358, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1674157716868029, "dur":6629, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1674157716874711, "dur":241, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benes/OneDrive/Desktop/vv/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":5, "ts":1674157716874954, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1674157716880257, "dur":1989, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/benes/OneDrive/Desktop/vv/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":5, "ts":1674157716882319, "dur":183, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benes/OneDrive/Desktop/vv/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1674157716882504, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1674157716882650, "dur":939, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/benes/OneDrive/Desktop/vv/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1674157716883642, "dur":176, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benes/OneDrive/Desktop/vv/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1674157716883822, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1674157716883832, "dur":18239, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/benes/OneDrive/Desktop/vv/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1674157716902131, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benes/OneDrive/Desktop/vv/CasinoMurmeln_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":5, "ts":1674157716902193, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1674157716902956, "dur":5873, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/benes/OneDrive/Desktop/vv/CasinoMurmeln_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":5, "ts":1674157716908912, "dur":54823, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benes/OneDrive/Desktop/vv/CasinoMurmeln_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1674157716963768, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1674157716963886, "dur":49170, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/benes/OneDrive/Desktop/vv/CasinoMurmeln_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1674157717013109, "dur":76326, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benes/OneDrive/Desktop/vv/CasinoMurmeln_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1674157717089442, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1674157717089453, "dur":1171, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/benes/OneDrive/Desktop/vv/CasinoMurmeln_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1674157717090670, "dur":49475, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benes/OneDrive/Desktop/vv/CasinoMurmeln_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1674157717140151, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1674157717140165, "dur":38216, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/benes/OneDrive/Desktop/vv/CasinoMurmeln_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1674157717179719, "dur":162360, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benes/OneDrive/Desktop/vv/CasinoMurmeln_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1674157717342085, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1674157717342097, "dur":6154, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/benes/OneDrive/Desktop/vv/CasinoMurmeln_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1674157717348313, "dur":74701, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benes/OneDrive/Desktop/vv/CasinoMurmeln_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1674157717423020, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1674157717423032, "dur":21679, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/benes/OneDrive/Desktop/vv/CasinoMurmeln_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1674157717444801, "dur":45932, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benes/OneDrive/Desktop/vv/CasinoMurmeln_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1674157717490740, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1674157717490762, "dur":2371, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/benes/OneDrive/Desktop/vv/CasinoMurmeln_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1674157717493192, "dur":75836, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benes/OneDrive/Desktop/vv/CasinoMurmeln_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1674157717569034, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1674157717569046, "dur":1501, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/benes/OneDrive/Desktop/vv/CasinoMurmeln_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1674157717570606, "dur":61911, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benes/OneDrive/Desktop/vv/CasinoMurmeln_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1674157717632524, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1674157717632535, "dur":3197, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/benes/OneDrive/Desktop/vv/CasinoMurmeln_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1674157717635788, "dur":63629, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benes/OneDrive/Desktop/vv/CasinoMurmeln_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":5, "ts":1674157717699422, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1674157717699433, "dur":1323, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/benes/OneDrive/Desktop/vv/CasinoMurmeln_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":5, "ts":1674157717700818, "dur":52073, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benes/OneDrive/Desktop/vv/CasinoMurmeln_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1674157717752912, "dur":8, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1674157717753349, "dur":1920, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/benes/OneDrive/Desktop/vv/CasinoMurmeln_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1674157717755315, "dur":262817, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benes/OneDrive/Desktop/vv/CasinoMurmeln_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1674157718018141, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1674157718018157, "dur":5248, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/benes/OneDrive/Desktop/vv/CasinoMurmeln_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1674157718023474, "dur":86493, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benes/OneDrive/Desktop/vv/CasinoMurmeln_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":5, "ts":1674157718109972, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1674157718109984, "dur":1505, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/benes/OneDrive/Desktop/vv/CasinoMurmeln_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":5, "ts":1674157718111546, "dur":162823, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benes/OneDrive/Desktop/vv/CasinoMurmeln_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":5, "ts":1674157718274390, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1674157718274435, "dur":3631, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/benes/OneDrive/Desktop/vv/CasinoMurmeln_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":5, "ts":1674157718278119, "dur":300711, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benes/OneDrive/Desktop/vv/CasinoMurmeln_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":5, "ts":1674157718578836, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1674157718578848, "dur":9905, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/benes/OneDrive/Desktop/vv/CasinoMurmeln_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":5, "ts":1674157718588810, "dur":160, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benes/OneDrive/Desktop/vv/CasinoMurmeln_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":5, "ts":1674157718588974, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1674157718596025, "dur":1219, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/benes/OneDrive/Desktop/vv/CasinoMurmeln_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":5, "ts":1674157718597314, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benes/OneDrive/Desktop/vv/CasinoMurmeln_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":5, "ts":1674157718597379, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1674157718597601, "dur":1966, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/benes/OneDrive/Desktop/vv/CasinoMurmeln_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":5, "ts":1674157718599615, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benes/OneDrive/Desktop/vv/CasinoMurmeln_Data/sharedassets5.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1674157718599668, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1674157718599697, "dur":15444, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/benes/OneDrive/Desktop/vv/CasinoMurmeln_Data/sharedassets5.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1674157718615193, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benes/OneDrive/Desktop/vv/CasinoMurmeln_Data/sharedassets4.assets" }}
+,{ "pid":12345, "tid":5, "ts":1674157718615243, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1674157718615265, "dur":2517, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/benes/OneDrive/Desktop/vv/CasinoMurmeln_Data/sharedassets4.assets" }}
+,{ "pid":12345, "tid":5, "ts":1674157718617842, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benes/OneDrive/Desktop/vv/CasinoMurmeln_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":5, "ts":1674157718617893, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1674157718617900, "dur":1772, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/benes/OneDrive/Desktop/vv/CasinoMurmeln_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":5, "ts":1674157718619719, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benes/OneDrive/Desktop/vv/CasinoMurmeln_Data/sharedassets2.resource" }}
+,{ "pid":12345, "tid":5, "ts":1674157718619776, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1674157718619787, "dur":2314, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/benes/OneDrive/Desktop/vv/CasinoMurmeln_Data/sharedassets2.resource" }}
+,{ "pid":12345, "tid":5, "ts":1674157718622166, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benes/OneDrive/Desktop/vv/CasinoMurmeln_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":5, "ts":1674157718622235, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1674157718622250, "dur":18516, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/benes/OneDrive/Desktop/vv/CasinoMurmeln_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":5, "ts":1674157718640824, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benes/OneDrive/Desktop/vv/CasinoMurmeln_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":5, "ts":1674157718640881, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1674157718640893, "dur":13231, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/benes/OneDrive/Desktop/vv/CasinoMurmeln_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":5, "ts":1674157718654174, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benes/OneDrive/Desktop/vv/CasinoMurmeln_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1674157718654219, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1674157718654228, "dur":21450, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/benes/OneDrive/Desktop/vv/CasinoMurmeln_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1674157718675730, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benes/OneDrive/Desktop/vv/CasinoMurmeln_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1674157718675789, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1674157718675798, "dur":1875, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/benes/OneDrive/Desktop/vv/CasinoMurmeln_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1674157718677726, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benes/OneDrive/Desktop/vv/CasinoMurmeln_Data/resources.assets" }}
+,{ "pid":12345, "tid":5, "ts":1674157718677793, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1674157718677802, "dur":967, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/benes/OneDrive/Desktop/vv/CasinoMurmeln_Data/resources.assets" }}
+,{ "pid":12345, "tid":5, "ts":1674157718678816, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benes/OneDrive/Desktop/vv/CasinoMurmeln_Data/level5" }}
+,{ "pid":12345, "tid":5, "ts":1674157718678887, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1674157718678895, "dur":13826, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/benes/OneDrive/Desktop/vv/CasinoMurmeln_Data/level5" }}
+,{ "pid":12345, "tid":5, "ts":1674157718692811, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benes/OneDrive/Desktop/vv/CasinoMurmeln_Data/level2.resS" }}
+,{ "pid":12345, "tid":5, "ts":1674157718692874, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1674157718692894, "dur":1812, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/benes/OneDrive/Desktop/vv/CasinoMurmeln_Data/level2.resS" }}
+,{ "pid":12345, "tid":5, "ts":1674157718694755, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benes/OneDrive/Desktop/vv/CasinoMurmeln_Data/level1.resS" }}
+,{ "pid":12345, "tid":5, "ts":1674157718694800, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1674157718694819, "dur":1490, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/benes/OneDrive/Desktop/vv/CasinoMurmeln_Data/level1.resS" }}
+,{ "pid":12345, "tid":5, "ts":1674157718696357, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benes/OneDrive/Desktop/vv/CasinoMurmeln_Data/level0.resS" }}
+,{ "pid":12345, "tid":5, "ts":1674157718696410, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1674157718696422, "dur":1717, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/benes/OneDrive/Desktop/vv/CasinoMurmeln_Data/level0.resS" }}
+,{ "pid":12345, "tid":5, "ts":1674157718698190, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benes/OneDrive/Desktop/vv/CasinoMurmeln_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":5, "ts":1674157718698249, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1674157718698258, "dur":1680, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/benes/OneDrive/Desktop/vv/CasinoMurmeln_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":5, "ts":1674157718700001, "dur":182, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benes/OneDrive/Desktop/vv/CasinoMurmeln_Data/boot.config" }}
+,{ "pid":12345, "tid":5, "ts":1674157718700187, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1674157718700193, "dur":1199, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/benes/OneDrive/Desktop/vv/CasinoMurmeln_Data/boot.config" }}
+,{ "pid":12345, "tid":5, "ts":1674157718701436, "dur":324926, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1674157716867798, "dur":311, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1674157716868109, "dur":6658, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1674157716874774, "dur":165, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benes/OneDrive/Desktop/vv/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":6, "ts":1674157716874943, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1674157716880277, "dur":1998, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/benes/OneDrive/Desktop/vv/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":6, "ts":1674157716882341, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benes/OneDrive/Desktop/vv/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":6, "ts":1674157716882393, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1674157716882667, "dur":1085, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/benes/OneDrive/Desktop/vv/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":6, "ts":1674157716883817, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benes/OneDrive/Desktop/vv/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":6, "ts":1674157716883872, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1674157716883881, "dur":16917, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/benes/OneDrive/Desktop/vv/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":6, "ts":1674157716901094, "dur":967, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benes/OneDrive/Desktop/vv/CasinoMurmeln.exe" }}
+,{ "pid":12345, "tid":6, "ts":1674157716902065, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1674157716902073, "dur":1858, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/benes/OneDrive/Desktop/vv/CasinoMurmeln.exe" }}
+,{ "pid":12345, "tid":6, "ts":1674157716903985, "dur":107968, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benes/OneDrive/Desktop/vv/CasinoMurmeln_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1674157717011959, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1674157717011969, "dur":1511, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/benes/OneDrive/Desktop/vv/CasinoMurmeln_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1674157717013557, "dur":63144, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benes/OneDrive/Desktop/vv/CasinoMurmeln_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1674157717076711, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1674157717076724, "dur":1239, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/benes/OneDrive/Desktop/vv/CasinoMurmeln_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1674157717078026, "dur":58753, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benes/OneDrive/Desktop/vv/CasinoMurmeln_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1674157717136786, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1674157717136798, "dur":1237, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/benes/OneDrive/Desktop/vv/CasinoMurmeln_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1674157717138100, "dur":124478, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benes/OneDrive/Desktop/vv/CasinoMurmeln_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1674157717262584, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1674157717262595, "dur":43641, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/benes/OneDrive/Desktop/vv/CasinoMurmeln_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1674157717306306, "dur":75249, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benes/OneDrive/Desktop/vv/CasinoMurmeln_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1674157717381562, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1674157717381574, "dur":2422, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/benes/OneDrive/Desktop/vv/CasinoMurmeln_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1674157717384133, "dur":75997, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benes/OneDrive/Desktop/vv/CasinoMurmeln_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1674157717460138, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1674157717460152, "dur":3077, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/benes/OneDrive/Desktop/vv/CasinoMurmeln_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1674157717463283, "dur":44125, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benes/OneDrive/Desktop/vv/CasinoMurmeln_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1674157717507414, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1674157717507428, "dur":1316, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/benes/OneDrive/Desktop/vv/CasinoMurmeln_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1674157717508791, "dur":88291, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benes/OneDrive/Desktop/vv/CasinoMurmeln_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1674157717597088, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1674157717597099, "dur":1468, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/benes/OneDrive/Desktop/vv/CasinoMurmeln_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1674157717598619, "dur":55187, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benes/OneDrive/Desktop/vv/CasinoMurmeln_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1674157717653812, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1674157717653823, "dur":1424, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/benes/OneDrive/Desktop/vv/CasinoMurmeln_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1674157717655298, "dur":36516, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benes/OneDrive/Desktop/vv/CasinoMurmeln_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1674157717691825, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1674157717691842, "dur":1426, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/benes/OneDrive/Desktop/vv/CasinoMurmeln_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1674157717693342, "dur":42617, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benes/OneDrive/Desktop/vv/CasinoMurmeln_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1674157717735966, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1674157717735978, "dur":1505, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/benes/OneDrive/Desktop/vv/CasinoMurmeln_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1674157717737570, "dur":83020, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benes/OneDrive/Desktop/vv/CasinoMurmeln_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1674157717820595, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1674157717820607, "dur":2189, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/benes/OneDrive/Desktop/vv/CasinoMurmeln_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1674157717822862, "dur":86820, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benes/OneDrive/Desktop/vv/CasinoMurmeln_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":6, "ts":1674157717909688, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1674157717909699, "dur":11818, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/benes/OneDrive/Desktop/vv/CasinoMurmeln_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":6, "ts":1674157717921837, "dur":54937, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benes/OneDrive/Desktop/vv/CasinoMurmeln_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":6, "ts":1674157717976799, "dur":8, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1674157717976839, "dur":19438, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/benes/OneDrive/Desktop/vv/CasinoMurmeln_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":6, "ts":1674157717996395, "dur":202036, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benes/OneDrive/Desktop/vv/CasinoMurmeln_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":6, "ts":1674157718198437, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1674157718198448, "dur":1184, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/benes/OneDrive/Desktop/vv/CasinoMurmeln_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":6, "ts":1674157718199692, "dur":198573, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benes/OneDrive/Desktop/vv/CasinoMurmeln_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":6, "ts":1674157718398280, "dur":8, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1674157718398326, "dur":2849, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/benes/OneDrive/Desktop/vv/CasinoMurmeln_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":6, "ts":1674157718401229, "dur":192610, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benes/OneDrive/Desktop/vv/CasinoMurmeln_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":6, "ts":1674157718593845, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1674157718593859, "dur":5841, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/benes/OneDrive/Desktop/vv/CasinoMurmeln_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":6, "ts":1674157718599752, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benes/OneDrive/Desktop/vv/CasinoMurmeln_Data/sharedassets5.assets" }}
+,{ "pid":12345, "tid":6, "ts":1674157718599799, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1674157718599806, "dur":11251, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/benes/OneDrive/Desktop/vv/CasinoMurmeln_Data/sharedassets5.assets" }}
+,{ "pid":12345, "tid":6, "ts":1674157718611112, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benes/OneDrive/Desktop/vv/CasinoMurmeln_Data/sharedassets4.assets.resS" }}
+,{ "pid":12345, "tid":6, "ts":1674157718611173, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1674157718611185, "dur":6401, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/benes/OneDrive/Desktop/vv/CasinoMurmeln_Data/sharedassets4.assets.resS" }}
+,{ "pid":12345, "tid":6, "ts":1674157718617642, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benes/OneDrive/Desktop/vv/CasinoMurmeln_Data/sharedassets3.assets.resS" }}
+,{ "pid":12345, "tid":6, "ts":1674157718617689, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1674157718617698, "dur":3752, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/benes/OneDrive/Desktop/vv/CasinoMurmeln_Data/sharedassets3.assets.resS" }}
+,{ "pid":12345, "tid":6, "ts":1674157718621511, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benes/OneDrive/Desktop/vv/CasinoMurmeln_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":6, "ts":1674157718621573, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1674157718621610, "dur":99911, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/benes/OneDrive/Desktop/vv/CasinoMurmeln_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":6, "ts":1674157718721583, "dur":304731, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1674157716867767, "dur":306, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1674157716868073, "dur":6620, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1674157716874712, "dur":476, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benes/OneDrive/Desktop/vv/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1674157716875192, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1674157716943252, "dur":69377, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/benes/OneDrive/Desktop/vv/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1674157717012699, "dur":104614, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benes/OneDrive/Desktop/vv/CasinoMurmeln_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1674157717117329, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1674157717117342, "dur":12681, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/benes/OneDrive/Desktop/vv/CasinoMurmeln_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1674157717130083, "dur":46468, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benes/OneDrive/Desktop/vv/CasinoMurmeln_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1674157717176557, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1674157717176569, "dur":4743, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/benes/OneDrive/Desktop/vv/CasinoMurmeln_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1674157717181365, "dur":284666, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benes/OneDrive/Desktop/vv/CasinoMurmeln_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1674157717466037, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1674157717466049, "dur":3437, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/benes/OneDrive/Desktop/vv/CasinoMurmeln_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1674157717469538, "dur":45491, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benes/OneDrive/Desktop/vv/CasinoMurmeln_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1674157717515036, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1674157717515048, "dur":9367, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/benes/OneDrive/Desktop/vv/CasinoMurmeln_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1674157717524547, "dur":96142, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benes/OneDrive/Desktop/vv/CasinoMurmeln_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1674157717620695, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1674157717620708, "dur":14634, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/benes/OneDrive/Desktop/vv/CasinoMurmeln_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1674157717635409, "dur":64522, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benes/OneDrive/Desktop/vv/CasinoMurmeln_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1674157717699936, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1674157717699944, "dur":3222, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/benes/OneDrive/Desktop/vv/CasinoMurmeln_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1674157717703427, "dur":76996, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benes/OneDrive/Desktop/vv/CasinoMurmeln_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1674157717780429, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1674157717780441, "dur":1187, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/benes/OneDrive/Desktop/vv/CasinoMurmeln_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1674157717781683, "dur":79110, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benes/OneDrive/Desktop/vv/CasinoMurmeln_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":7, "ts":1674157717860798, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1674157717860811, "dur":5213, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/benes/OneDrive/Desktop/vv/CasinoMurmeln_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":7, "ts":1674157717866075, "dur":40271, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benes/OneDrive/Desktop/vv/CasinoMurmeln_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":7, "ts":1674157717906352, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1674157717906364, "dur":1208, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/benes/OneDrive/Desktop/vv/CasinoMurmeln_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":7, "ts":1674157717907633, "dur":52058, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benes/OneDrive/Desktop/vv/CasinoMurmeln_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":7, "ts":1674157717959699, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1674157717959716, "dur":3053, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/benes/OneDrive/Desktop/vv/CasinoMurmeln_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":7, "ts":1674157717962829, "dur":6324, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benes/OneDrive/Desktop/vv/CasinoMurmeln_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":7, "ts":1674157717969159, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1674157717969170, "dur":4053, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/benes/OneDrive/Desktop/vv/CasinoMurmeln_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":7, "ts":1674157717973284, "dur":49930, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benes/OneDrive/Desktop/vv/CasinoMurmeln_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":7, "ts":1674157718023219, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1674157718023233, "dur":4559, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/benes/OneDrive/Desktop/vv/CasinoMurmeln_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":7, "ts":1674157718027844, "dur":147757, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benes/OneDrive/Desktop/vv/CasinoMurmeln_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":7, "ts":1674157718175606, "dur":545, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1674157718176164, "dur":1722, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/benes/OneDrive/Desktop/vv/CasinoMurmeln_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":7, "ts":1674157718177941, "dur":62501, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benes/OneDrive/Desktop/vv/CasinoMurmeln_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":7, "ts":1674157718240448, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1674157718240459, "dur":1127, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/benes/OneDrive/Desktop/vv/CasinoMurmeln_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":7, "ts":1674157718241639, "dur":408875, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benes/OneDrive/Desktop/vv/CasinoMurmeln_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":7, "ts":1674157718650549, "dur":12, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1674157718650606, "dur":7863, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/benes/OneDrive/Desktop/vv/CasinoMurmeln_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":7, "ts":1674157718658518, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benes/OneDrive/Desktop/vv/CasinoMurmeln_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":7, "ts":1674157718658569, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1674157718658585, "dur":1141, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/benes/OneDrive/Desktop/vv/CasinoMurmeln_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":7, "ts":1674157718659789, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benes/OneDrive/Desktop/vv/CasinoMurmeln_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1674157718659857, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1674157718659867, "dur":6486, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/benes/OneDrive/Desktop/vv/CasinoMurmeln_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1674157718666563, "dur":130, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benes/OneDrive/Desktop/vv/CasinoMurmeln_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":7, "ts":1674157718666707, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1674157718666760, "dur":6917, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/benes/OneDrive/Desktop/vv/CasinoMurmeln_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":7, "ts":1674157718673763, "dur":196, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benes/OneDrive/Desktop/vv/CasinoMurmeln_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":7, "ts":1674157718674059, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1674157718674076, "dur":1394, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/benes/OneDrive/Desktop/vv/CasinoMurmeln_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":7, "ts":1674157718675542, "dur":1172, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benes/OneDrive/Desktop/vv/CasinoMurmeln_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":7, "ts":1674157718676718, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1674157718676728, "dur":1135, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/benes/OneDrive/Desktop/vv/CasinoMurmeln_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":7, "ts":1674157718677913, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benes/OneDrive/Desktop/vv/CasinoMurmeln_Data/level5.resS" }}
+,{ "pid":12345, "tid":7, "ts":1674157718677964, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1674157718677971, "dur":1300, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/benes/OneDrive/Desktop/vv/CasinoMurmeln_Data/level5.resS" }}
+,{ "pid":12345, "tid":7, "ts":1674157718679321, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benes/OneDrive/Desktop/vv/CasinoMurmeln_Data/level4.resS" }}
+,{ "pid":12345, "tid":7, "ts":1674157718679364, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1674157718679375, "dur":1234, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/benes/OneDrive/Desktop/vv/CasinoMurmeln_Data/level4.resS" }}
+,{ "pid":12345, "tid":7, "ts":1674157718680661, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benes/OneDrive/Desktop/vv/CasinoMurmeln_Data/level4" }}
+,{ "pid":12345, "tid":7, "ts":1674157718680719, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1674157718680823, "dur":1699, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/benes/OneDrive/Desktop/vv/CasinoMurmeln_Data/level4" }}
+,{ "pid":12345, "tid":7, "ts":1674157718682597, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benes/OneDrive/Desktop/vv/CasinoMurmeln_Data/level3.resS" }}
+,{ "pid":12345, "tid":7, "ts":1674157718682665, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1674157718682680, "dur":1472, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/benes/OneDrive/Desktop/vv/CasinoMurmeln_Data/level3.resS" }}
+,{ "pid":12345, "tid":7, "ts":1674157718684208, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benes/OneDrive/Desktop/vv/CasinoMurmeln_Data/level3" }}
+,{ "pid":12345, "tid":7, "ts":1674157718684257, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1674157718684267, "dur":8935, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/benes/OneDrive/Desktop/vv/CasinoMurmeln_Data/level3" }}
+,{ "pid":12345, "tid":7, "ts":1674157718693264, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benes/OneDrive/Desktop/vv/CasinoMurmeln_Data/level2" }}
+,{ "pid":12345, "tid":7, "ts":1674157718693312, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1674157718693318, "dur":2920, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/benes/OneDrive/Desktop/vv/CasinoMurmeln_Data/level2" }}
+,{ "pid":12345, "tid":7, "ts":1674157718696293, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benes/OneDrive/Desktop/vv/CasinoMurmeln_Data/level1" }}
+,{ "pid":12345, "tid":7, "ts":1674157718696341, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1674157718696352, "dur":1568, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/benes/OneDrive/Desktop/vv/CasinoMurmeln_Data/level1" }}
+,{ "pid":12345, "tid":7, "ts":1674157718697989, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benes/OneDrive/Desktop/vv/CasinoMurmeln_Data/level0" }}
+,{ "pid":12345, "tid":7, "ts":1674157718698039, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1674157718698118, "dur":1590, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/benes/OneDrive/Desktop/vv/CasinoMurmeln_Data/level0" }}
+,{ "pid":12345, "tid":7, "ts":1674157718699758, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benes/OneDrive/Desktop/vv/CasinoMurmeln_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":7, "ts":1674157718699806, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1674157718699815, "dur":1379, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/benes/OneDrive/Desktop/vv/CasinoMurmeln_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":7, "ts":1674157718701242, "dur":325125, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1674157716867877, "dur":235, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1674157716868112, "dur":6564, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1674157716874711, "dur":394, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benes/OneDrive/Desktop/vv/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":8, "ts":1674157716875107, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1674157716943299, "dur":69225, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/benes/OneDrive/Desktop/vv/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":8, "ts":1674157717012585, "dur":138393, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benes/OneDrive/Desktop/vv/CasinoMurmeln_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1674157717150996, "dur":7, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1674157717151021, "dur":2009, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/benes/OneDrive/Desktop/vv/CasinoMurmeln_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1674157717153094, "dur":172233, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benes/OneDrive/Desktop/vv/CasinoMurmeln_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1674157717325334, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1674157717325345, "dur":4101, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/benes/OneDrive/Desktop/vv/CasinoMurmeln_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1674157717329503, "dur":94430, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benes/OneDrive/Desktop/vv/CasinoMurmeln_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1674157717423937, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1674157717423946, "dur":4588, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/benes/OneDrive/Desktop/vv/CasinoMurmeln_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1674157717428590, "dur":40418, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benes/OneDrive/Desktop/vv/CasinoMurmeln_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1674157717469014, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1674157717469027, "dur":1323, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/benes/OneDrive/Desktop/vv/CasinoMurmeln_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1674157717470410, "dur":46224, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benes/OneDrive/Desktop/vv/CasinoMurmeln_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1674157717516639, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1674157717516650, "dur":14578, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/benes/OneDrive/Desktop/vv/CasinoMurmeln_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1674157717531301, "dur":43638, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benes/OneDrive/Desktop/vv/CasinoMurmeln_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1674157717574945, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1674157717574956, "dur":1973, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/benes/OneDrive/Desktop/vv/CasinoMurmeln_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1674157717577559, "dur":220470, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benes/OneDrive/Desktop/vv/CasinoMurmeln_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1674157717798034, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1674157717798045, "dur":1379, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/benes/OneDrive/Desktop/vv/CasinoMurmeln_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1674157717799480, "dur":161521, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benes/OneDrive/Desktop/vv/CasinoMurmeln_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":8, "ts":1674157717961036, "dur":9, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1674157717961072, "dur":4280, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/benes/OneDrive/Desktop/vv/CasinoMurmeln_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":8, "ts":1674157717965411, "dur":126417, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benes/OneDrive/Desktop/vv/CasinoMurmeln_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":8, "ts":1674157718091843, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1674157718091854, "dur":2030, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/benes/OneDrive/Desktop/vv/CasinoMurmeln_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":8, "ts":1674157718093936, "dur":124148, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benes/OneDrive/Desktop/vv/CasinoMurmeln_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":8, "ts":1674157718218090, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1674157718218102, "dur":1851, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/benes/OneDrive/Desktop/vv/CasinoMurmeln_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":8, "ts":1674157718220011, "dur":59571, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benes/OneDrive/Desktop/vv/CasinoMurmeln_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":8, "ts":1674157718279588, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1674157718279599, "dur":1147, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/benes/OneDrive/Desktop/vv/CasinoMurmeln_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":8, "ts":1674157718280805, "dur":83806, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benes/OneDrive/Desktop/vv/CasinoMurmeln_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":8, "ts":1674157718364616, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1674157718364629, "dur":1494, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/benes/OneDrive/Desktop/vv/CasinoMurmeln_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":8, "ts":1674157718366173, "dur":197085, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benes/OneDrive/Desktop/vv/CasinoMurmeln_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":8, "ts":1674157718563276, "dur":13, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1674157718563316, "dur":4935, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/benes/OneDrive/Desktop/vv/CasinoMurmeln_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":8, "ts":1674157718568317, "dur":270551, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/benes/OneDrive/Desktop/vv/CasinoMurmeln_Data/Managed/Cinemachine.dll" }}
+,{ "pid":12345, "tid":8, "ts":1674157718838873, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1674157718838882, "dur":1371, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/benes/OneDrive/Desktop/vv/CasinoMurmeln_Data/Managed/Cinemachine.dll" }}
+,{ "pid":12345, "tid":8, "ts":1674157718840309, "dur":186001, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1674157719030221, "dur":2928, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1674157719052502, "dur": 1129, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1674157719051998, "dur": 1656, "ph": "X", "name": "Write chrome-trace events", "args": {} },
